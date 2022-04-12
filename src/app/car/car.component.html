@@ -1,0 +1,10 @@
+<div class="card">
+    <img [src]="dataEntrante?.img" alt="" class="image">
+    <div class="wrapper-text">
+        <div class="title">{{dataEntrante?.title}}</div>
+        <div class="sub-title">{{dataEntrante?.subtitle}}</div>
+    </div>
+    <div>
+        <button class="favorite" (click)="AgregarFavorito()">Add Favorite</button>
+    </div>
+</div>
